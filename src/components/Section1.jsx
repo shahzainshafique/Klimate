@@ -2,14 +2,14 @@ import React from "react";
 // import bg from "../assets/wave.png";
 import img1 from "../assets/img1.svg";
 import "../css/section1.css";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 const Section1 = () => {
   return (
     <React.Fragment>
       <div className="main-text">
         <h1 className="main-heading">
           Play a part in <br />
-          <span style={{ color: "rgb(42, 210, 252)" }}>
+          {/* <span style={{ color: "rgb(42, 210, 252)" }}>
             {" "}
             <Typewriter
               onInit={(typewriter) => {
@@ -23,8 +23,9 @@ const Section1 = () => {
                   .start();
               }}
             />{" "}
-          </span>
-          the Environment!
+          </span> */}
+          <span style={{ color: "rgb(42, 210, 252)" }}> Protecting </span>the
+          Environment!
         </h1>
         <br />
         <h3 className="main-subheading">
