@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.main-text {
+  margin-top: 6%;
+  margin-left: -4%;
+  float: left;
+}
+.main-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  margin-bottom: -10px;
+}
+.main-subheading {
+  float: left;
+  font-family: "Poppins", sans-serif;
+}
+.img1 {
+  margin-top: 50px;
+  float: right;
+}
+.btn-grad {
+  font-family: "Poppins", sans-serif;
+
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  transition: all 0.5s;
+}
+.btn-grad {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad:after {
+  content: ">";
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -80px;
+  transition: 0.5s;
+}
+
+.btn-grad:hover:after {
+  opacity: 1;
+  right: 10px;
+}
